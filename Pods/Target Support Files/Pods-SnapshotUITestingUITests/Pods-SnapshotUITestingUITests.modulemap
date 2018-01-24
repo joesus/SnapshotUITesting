@@ -1,0 +1,6 @@
+framework module Pods_SnapshotUITestingUITests {
+  umbrella header "Pods-SnapshotUITestingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
