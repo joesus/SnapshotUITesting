@@ -10,21 +10,22 @@ import XCTest
 
 let app = XCUIApplication()
 
-class SnapshotUITestingUITests: XCTestCase {
+class SnapshotUITestingUITests: SnapshotTestCase {
 
     override func setUp() {
         super.setUp()
-        
-        continueAfterFailure = false
-        XCUIApplication().launch()
-    }
-    
-    func testExample() {
 
-        let app = XCUIApplication()
+        XCUIApplication().launch()
+
+        recordMode = true
+    }
+
+    func testExample() {
+        verifyView()
+
         app.buttons["Leave World"].tap()
 
         XCTAssertTrue(app.staticTexts["Hello World"].waitForExistence(timeout: 2))
     }
-    
+
 }
