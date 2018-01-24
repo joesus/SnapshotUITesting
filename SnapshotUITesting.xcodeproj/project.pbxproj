@@ -17,6 +17,7 @@
 		F4E4AF8D20180C220006829E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E4AF8B20180C220006829E /* LaunchScreen.storyboard */; };
 		F4E4AF9820180C220006829E /* SnapshotUITestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E4AF9720180C220006829E /* SnapshotUITestingTests.swift */; };
 		F4E4AFA320180C220006829E /* SnapshotUITestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E4AFA220180C220006829E /* SnapshotUITestingUITests.swift */; };
+		F4E4AFB3201822FD0006829E /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E4AFB2201822FD0006829E /* UIImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F4E4AF9E20180C220006829E /* SnapshotUITestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotUITestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E4AFA220180C220006829E /* SnapshotUITestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotUITestingUITests.swift; sourceTree = "<group>"; };
 		F4E4AFA420180C220006829E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E4AFB2201822FD0006829E /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			children = (
 				F4E4AFA220180C220006829E /* SnapshotUITestingUITests.swift */,
 				F4E4AFA420180C220006829E /* Info.plist */,
+				F4E4AFB2201822FD0006829E /* UIImageExtensions.swift */,
 			);
 			path = SnapshotUITestingUITests;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E4AFB3201822FD0006829E /* UIImageExtensions.swift in Sources */,
 				F4E4AFA320180C220006829E /* SnapshotUITestingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
